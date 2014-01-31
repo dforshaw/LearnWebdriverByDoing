@@ -1,6 +1,8 @@
 package com.learnwebdriverbydoing.navigation;
 
-// This is an example of how to use the Webdriver API command: Get
+/**
+ * This is an example of how to use the Webdriver API commands: Get
+ */
 
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
