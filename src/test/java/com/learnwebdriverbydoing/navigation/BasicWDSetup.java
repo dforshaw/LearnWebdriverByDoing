@@ -9,6 +9,7 @@ public class BasicWDSetup {
 
     WebDriver driver;
     String baseUrl;
+    String pageTitle;
 
     @Before
     public void setUp() {

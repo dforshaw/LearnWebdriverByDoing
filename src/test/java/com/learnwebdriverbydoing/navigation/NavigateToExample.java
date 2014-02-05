@@ -1,7 +1,9 @@
 package com.learnwebdriverbydoing.navigation;
 
 import org.junit.Test;
-import static org.junit.Assert.assertTrue;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 /**
  * This is an example of how to use the Webdriver API commands: Navigate To
@@ -13,8 +15,8 @@ public class NavigateToExample extends BasicWDSetup {
     public void NavigateToExampleTest() {
 
         driver.navigate().to(baseUrl);
-
-        assertTrue("Verify Title", driver.getTitle().startsWith("Selenium Test Pages"));
+        pageTitle = driver.getTitle();
+        assertThat(pageTitle, is("Selenium Test Pages"));
 
         driver.close();
     }
