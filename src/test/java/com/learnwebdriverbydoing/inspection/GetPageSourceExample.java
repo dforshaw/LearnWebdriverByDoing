@@ -15,7 +15,7 @@ public class GetPageSourceExample extends BasicWDSetupForInspection {
     @Test
     public void GetPageSourceExampleTest() {
 
-        driver.get(baseUrl + "basic_web_page.html");
+        driver.get(baseUrl + "/" + "basic_web_page.html");
         String pageSource = driver.getPageSource();
         System.out.println(pageSource);
         assertThat(pageSource, containsString("<title>Basic Web Page Title</title>"));

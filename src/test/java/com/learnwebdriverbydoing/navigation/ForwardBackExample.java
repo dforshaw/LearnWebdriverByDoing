@@ -15,7 +15,7 @@ public class ForwardBackExample extends BasicWDSetupForNavigation {
     public void ForwardBackExampleTest() {
 
         driver.navigate().to(baseUrl);
-        driver.navigate().to(baseUrl + "/basic_web_page.html");
+        driver.navigate().to(baseUrl + "/" + "basic_web_page.html");
 
         driver.navigate().back();
         pageTitle = driver.getTitle();

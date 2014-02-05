@@ -18,7 +18,7 @@ public class BasicWDSetupForNavigation {
     @Before
     public void setUp() {
         driver = new FirefoxDriver();
-        baseUrl = "http://www.waveville.net/~dforshaw/seleniumTestPages-ajr/pages/";
+        baseUrl = "http://www.waveville.net/~dforshaw/seleniumTestPages-ajr/pages";
     }
 
     @After
