@@ -1,11 +1,11 @@
 package com.learnwebdriverbydoing.navigation;
 
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+
 /**
  * This is an example of how to use the Webdriver API commands: Navigate To
  */
-
-import org.junit.Test;
-import static org.junit.Assert.assertTrue;
 
 public class NavigateToExample extends BaseNavigationTest {
 
