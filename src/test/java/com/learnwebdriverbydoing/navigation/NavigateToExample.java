@@ -12,9 +12,9 @@ public class NavigateToExample extends BasicWDSetup {
     @Test
     public void NavigateToExampleTest() {
 
-        driver.navigate().to(baseUrl + "/selenium");
+        driver.navigate().to(baseUrl);
 
-        assertTrue("Verify Title", driver.getTitle().startsWith("Selenium Simplified"));
+        assertTrue("Verify Title", driver.getTitle().startsWith("Selenium Test Pages"));
 
         driver.close();
     }

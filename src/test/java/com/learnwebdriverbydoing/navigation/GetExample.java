@@ -12,9 +12,9 @@ public class GetExample extends BasicWDSetup {
     @Test
     public void GetExampleTest() {
 
-        driver.get(baseUrl + "/selenium");
+        driver.get(baseUrl);
 
-        assertTrue("Verify Title", driver.getTitle().startsWith("Selenium Simplified"));
+        assertTrue("Verify Title", driver.getTitle().startsWith("Selenium Test Pages"));
 
         driver.close();
     }

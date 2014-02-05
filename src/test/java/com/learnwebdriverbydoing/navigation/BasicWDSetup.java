@@ -13,7 +13,7 @@ public class BasicWDSetup {
     @Before
     public void setUp() {
         driver = new FirefoxDriver();
-        baseUrl = "http://www.compendiumdev.co.uk";
+        baseUrl = "http://www.waveville.net/~dforshaw/seleniumTestPages-ajr/pages/";
     }
 
     @After
