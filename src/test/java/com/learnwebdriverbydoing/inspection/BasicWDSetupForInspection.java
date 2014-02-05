@@ -5,6 +5,10 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+/**
+ * This class contains variables and methods common to the other classes in this package
+ */
+
 public class BasicWDSetupForInspection {
 
     WebDriver driver;
