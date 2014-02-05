@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
  * This is an example of how to use the Webdriver API commands: Forward & Back
  */
 
-public class ForwardBackExample extends BasicWDSetup {
+public class ForwardBackExample extends BasicWDSetupForNavigation {
 
     @Test
     public void ForwardBackExampleTest() {

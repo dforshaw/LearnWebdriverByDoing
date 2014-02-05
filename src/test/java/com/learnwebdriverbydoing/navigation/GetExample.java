@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
  * This is an example of how to use the Webdriver API commands: Get
  */
 
-public class GetExample extends BasicWDSetup {
+public class GetExample extends BasicWDSetupForNavigation {
 
     @Test
     public void GetExampleTest() {

@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
  * This is an example of how to use the Webdriver API commands: Navigate To
  */
 
-public class NavigateToExample extends BasicWDSetup {
+public class NavigateToExample extends BasicWDSetupForNavigation {
 
     @Test
     public void NavigateToExampleTest() {
