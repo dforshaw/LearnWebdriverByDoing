@@ -3,7 +3,7 @@ package com.learnwebdriverbydoing.navigation;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  * This is an example of how to use the Webdriver API commands: Get
