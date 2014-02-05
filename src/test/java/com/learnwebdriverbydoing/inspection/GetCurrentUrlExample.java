@@ -17,12 +17,12 @@ public class GetCurrentUrlExample extends BasicWDSetupForInspection {
         driver.get(baseUrl);
         url = driver.getCurrentUrl();
         System.out.println("Current URL: " + url);
-        assertThat(url, is(baseUrl));
+        assertThat(url, is(baseUrl  + "/"));
 
         driver.navigate().to(baseUrl  + "/" + "basic_web_page.html");
         url = driver.getCurrentUrl();
         System.out.println("Current URL: " + url);
-        assertThat(url, is(baseUrl + "basic_web_page.html"));
+        assertThat(url, is(baseUrl + "/basic_web_page.html"));
 
         driver.close();
     }
