@@ -26,6 +26,11 @@ public class FindElementByNameExample extends BasicWDSetupForInspection {
         // Determine how to locate to element on the page
         By submitButtonLocator = By.name("submitbutton");
 
+// Tried using a different field : Username
+//        By usernameLocator = By.name("username");
+//        WebElement usernameField = driver.findElement(usernameLocator);
+//        assertThat(usernameField.getSize(), is(equalTo(15)));
+
         List<WebElement> buttons = driver.findElements(submitButtonLocator);
 
 //        WebElement submitButton = null;
