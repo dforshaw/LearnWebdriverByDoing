@@ -9,10 +9,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * This is an example of how to use the Webdriver API commands: Forward & Back
  */
 
-public class ForwardBackExample extends BasicWDSetupForNavigation {
+public class ForwardBack extends BasicWDSetupForNavigation {
 
     @Test
-    public void ForwardBackExampleTest() {
+    public void ForwardBackTest() {
 
         driver.navigate().to(baseUrl);
         driver.navigate().to(baseUrl + "/" + "basic_web_page.html");

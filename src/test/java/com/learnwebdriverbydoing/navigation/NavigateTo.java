@@ -6,15 +6,15 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
- * This is an example of how to use the Webdriver API commands: Get
+ * This is an example of how to use the Webdriver API commands: Navigate To
  */
 
-public class GetExample extends BasicWDSetupForNavigation {
+public class NavigateTo extends BasicWDSetupForNavigation {
 
     @Test
-    public void GetExampleTest() {
+    public void NavigateToTest() {
 
-        driver.get(baseUrl);
+        driver.navigate().to(baseUrl);
         pageTitle = driver.getTitle();
         assertThat(pageTitle, is("Selenium Test Pages"));
 

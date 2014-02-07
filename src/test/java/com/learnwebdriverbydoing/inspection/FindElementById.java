@@ -10,19 +10,19 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * This is an example of how to use the Webdriver API commands:
  *      findElement
- *      By.className
+ *      By.id
  *      getText
  */
 
-public class FindElementByClassNameExample extends BasicWDSetupForInspection {
+public class FindElementById extends BasicWDSetupForInspection {
 
     @Test
-    public void FindElementByClassNameExampleTest() {
+    public void FindElementByIdTest() {
 
         driver.get(baseUrl + "/" + "basic_web_page.html");
 
         // Determine how to locate to element on the page
-        By text1Locator = By.className("main");
+        By text1Locator = By.id("para1");
 
         // Name the element on the page and hook it to the locator
         WebElement text1 = driver.findElement(text1Locator);

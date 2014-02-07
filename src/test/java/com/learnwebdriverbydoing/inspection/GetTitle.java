@@ -9,10 +9,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * This is an example of how to use the Webdriver API commands: getTitle
  */
 
-public class GetTitleExample extends BasicWDSetupForInspection {
+public class GetTitle extends BasicWDSetupForInspection {
 
     @Test
-    public void GetTitleExampleTest() {
+    public void GetTitleTest() {
 
         driver.get(baseUrl);
         pageTitle = driver.getTitle();

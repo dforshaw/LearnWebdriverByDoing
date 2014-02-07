@@ -10,10 +10,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * This is an example of how to use the Webdriver API commands: getPageSource
  */
 
-public class GetPageSourceExample extends BasicWDSetupForInspection {
+public class GetPageSource extends BasicWDSetupForInspection {
 
     @Test
-    public void GetPageSourceExampleTest() {
+    public void GetPageSourceTest() {
 
         driver.get(baseUrl + "/" + "basic_web_page.html");
         String pageSource = driver.getPageSource();

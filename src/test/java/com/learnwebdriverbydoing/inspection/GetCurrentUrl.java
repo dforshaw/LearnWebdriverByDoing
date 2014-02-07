@@ -9,10 +9,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * This is an example of how to use the Webdriver API commands: getCurrentUrl
  */
 
-public class GetCurrentUrlExample extends BasicWDSetupForInspection {
+public class GetCurrentUrl extends BasicWDSetupForInspection {
 
     @Test
-    public void GetCurrentUrlExampleTest() {
+    public void GetCurrentUrlTest() {
 
         driver.get(baseUrl);
         url = driver.getCurrentUrl();
