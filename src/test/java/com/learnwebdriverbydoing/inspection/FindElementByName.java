@@ -16,10 +16,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
  *      getAttribute
  */
 
-public class FindElementByNameExample extends BasicWDSetupForInspection {
+public class FindElementByName extends BasicWDSetupForInspection {
 
     @Test
-    public void FindElementByNameExampleTest() {
+    public void FindElementByNameTest() {
 
         driver.get(baseUrl + "/" + "basic_html_form.html");
 
@@ -40,7 +40,7 @@ public class FindElementByNameExample extends BasicWDSetupForInspection {
             String type =  button.getAttribute("type");
 // remove            System.out.println(type);
 
-            if (type == "submit") {
+            if (type.equals("submit")) {
 
 // ****** FIX THIS -- figure out how to set a WebElement element to another
 //                submitButton = button;
