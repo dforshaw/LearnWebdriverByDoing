@@ -21,9 +21,16 @@ public class FindElementByName extends BasicWDSetupForInspection {
 
         driver.get(baseUrl + "/" + "search.php");
 
+        // Determine how to locate to element on the page
         By searchButtonLocator = By.name("btnG");
+
+        // Name the element on the page and hook it to the locator
         WebElement searchButton = driver.findElement(searchButtonLocator);
-        assertThat(searchButton.getAttribute("value"), is("Search"));
+
+        // Identify characteristic to confirm
+        String observedValue = searchButton.getAttribute("value");
+
+        assertThat(observedValue, is("Search"));
 
         driver.close();
     }

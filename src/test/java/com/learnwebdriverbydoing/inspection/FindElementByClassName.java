@@ -27,7 +27,10 @@ public class FindElementByClassName extends BasicWDSetupForInspection {
         // Name the element on the page and hook it to the locator
         WebElement text1 = driver.findElement(text1Locator);
 
-        assertThat(text1.getText(), is("A paragraph of text"));
+        // Identify characteristic to confirm
+        String observedValue = text1.getText();
+
+        assertThat(observedValue, is("A paragraph of text"));
 
         driver.close();
     }
