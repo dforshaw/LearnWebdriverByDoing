@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * This is an example of how to use the Webdriver API commands:
  *      findElement
- *      By.Xpath
+ *      By.xpath
  *      getAttribute
  */
 
@@ -37,6 +37,3 @@ public class FindElementByXpath extends BasicWDSetupForInspection {
         driver.close();
     }
 }
-
-// #HTMLFormElements > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(9) > td:nth-child(1) > input:nth-child(2)
-// document.HTMLFormElements.submitbutton[1]
