@@ -7,6 +7,13 @@ import org.openqa.selenium.WebElement;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+/**
+ * This is an example of how to use the Webdriver API commands:
+ *      findElement
+ *      By.Xpath
+ *      getAttribute
+ */
+
 public class FindElementByXpath extends BasicWDSetupForInspection {
     @Test
     public void FindElementByXpathTest() {
