@@ -1,9 +1,8 @@
 package com.learnwebdriverbydoing.navigation;
 
-import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import org.junit.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.*;
 
 /**
  * This is an example of how to use the Webdriver API commands: Forward & Back
