@@ -1,9 +1,8 @@
 package com.learnwebdriverbydoing.interaction;
 
-import org.junit.After;
-import org.junit.Before;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.*;
 
 /**
  * This class contains variables and methods common to the other classes in this package
