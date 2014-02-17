@@ -1,11 +1,9 @@
 package com.learnwebdriverbydoing.inspection;
 
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import org.junit.*;
+import org.openqa.selenium.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.*;
 
 /**
  * This is an example of how to use the Webdriver API commands:
