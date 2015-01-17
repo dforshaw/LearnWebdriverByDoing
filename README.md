@@ -13,4 +13,6 @@ Resources
 
 [Selenium WebDriver Practical Guide](http://www.packtpub.com/selenium-webdriver-practical-guide/book) by Satya Avasarala
 
+[Selenium Design Patterns and Best Practices](https://www.packtpub.com/web-development/selenium-design-patterns-and-best-practices) by Dima Kovalenko
+
 [Java For Testers](https://leanpub.com/javaForTesters) by Alan J. Richardson
