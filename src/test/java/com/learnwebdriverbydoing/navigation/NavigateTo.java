@@ -16,7 +16,5 @@ public class NavigateTo extends BasicWDSetupForNavigation {
         driver.navigate().to(baseUrl);
         pageTitle = driver.getTitle();
         assertThat(pageTitle, is("Selenium Test Pages"));
-
-        driver.close();
     }
 }

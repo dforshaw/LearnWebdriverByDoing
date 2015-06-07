@@ -16,7 +16,5 @@ public class Get extends BasicWDSetupForNavigation {
         driver.get(baseUrl);
         pageTitle = driver.getTitle();
         assertThat(pageTitle, is("Selenium Test Pages"));
-
-        driver.close();
     }
 }

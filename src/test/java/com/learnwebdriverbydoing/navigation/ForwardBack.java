@@ -23,7 +23,5 @@ public class ForwardBack extends BasicWDSetupForNavigation {
         driver.navigate().forward();
         pageTitle = driver.getTitle();
         assertThat(pageTitle, is("Basic Web Page Title"));
-
-        driver.close();
     }
 }
