@@ -1,4 +1,4 @@
-package com.learnwebdriverbydoing.navigation;
+package com.dfexamples.eviltester.navigation;
 
 import org.junit.*;
 import static org.hamcrest.CoreMatchers.*;

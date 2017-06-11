@@ -1,4 +1,4 @@
-package com.learnwebdriverbydoing.inspection;
+package com.dfexamples.eviltester.inspection;
 
 import org.junit.*;
 import org.openqa.selenium.*;

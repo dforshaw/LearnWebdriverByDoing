@@ -1,4 +1,4 @@
-package com.learnwebdriverbydoing;
+package com.dfexamples.eviltester;
 
 public interface Config {
 

@@ -1,7 +1,9 @@
-package com.learnwebdriverbydoing.navigation;
+package com.dfexamples.eviltester.navigation;
 
-import com.learnwebdriverbydoing.BasicWDSetup;
+import com.dfexamples.eviltester.BasicWDSetup;
 import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * This class contains variables and methods common to the other classes in this package
@@ -9,16 +11,13 @@ import org.junit.After;
 
 public class BasicWDSetupForNavigation extends BasicWDSetup {
 
-//    WebDriver driver;
-//    String baseUrl;
-//    String pageTitle;
+    String pageTitle;
 
-/*    @Before
+    @Before
     public void setUp() {
         driver = new FirefoxDriver();
-//        baseUrl = "http://www.waveville.net/~dforshaw/seleniumTestPages-ajr/pages";
     }
-*/
+
     @After
     public void tearDown() {
         driver.close();
